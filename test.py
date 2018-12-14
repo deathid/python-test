@@ -1,17 +1,21 @@
-print(1>5)
+from random import randint
 
-num = 10
+num = randint(1,100)
+print(num)
+print(num > 20)
 print("Guess what i think?")
-answer = int(input("input a number"))
+answer = int(input("input a number\n"))
 
-result = num < answer
-print("too big?")
-print(result)
+while answer != num:
+    if num < answer:
+        print(answer,"too big")
 
-result = num > answer
-print("too small?")
-print(result)
+    if num > answer:
+        print("too small")
 
-result = num == answer
-print("equal?")
-print(result)
+    answer = int(input("input a number"))
+
+if num == answer:
+    print("equal")
+
+
