@@ -13,8 +13,11 @@ for i in "yfreoifjidshgksdhgks":
 
 while True:
     a=int(input("please enter a number for a\n"))
+
     b=int(input("please enter a number for b\n"))
+
     print("a+b="+str(a+b))
     if a+b == 4:
         break
+
     print("'a+b'is not equal 4\n")
