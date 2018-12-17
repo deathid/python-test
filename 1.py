@@ -22,3 +22,5 @@ for u in range(1,11):
 for u in range(1,5):
     print("*",end = "")
 print("\n")
+
+print('%s is easy to learn' % 'Python')
