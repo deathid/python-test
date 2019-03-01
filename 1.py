@@ -24,3 +24,5 @@ for u in range(1,5):
 print("\n")
 
 print('%s is easy to learn' % 'Python')
+
+print(c)
